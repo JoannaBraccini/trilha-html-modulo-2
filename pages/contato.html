@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clínica Bem Viver - Contato</title>
+    <link rel="stylesheet" href="../css/base.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="menu" aria-label="Menu principal">
+        <ul>
+          <li><a href="../index.html">Página Principal</a></li>
+          <li><a href="sobre.html">Sobre a Clínica</a></li>
+          <li><a href="horario.html">Horário de Atendimento</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+      <main class="main">
+        <header class="header" role="banner">
+          <img
+            src="../images/banner-contato.jpg"
+            alt="Banner de contato da clínica, mostrando atendimento e comunicação"
+          />
+        </header>
+        <section class="content" tabindex="0">
+          <h1>Contato</h1>
+          <p>
+            <strong>Telefones:</strong> (11) 99999-9999 | WhatsApp: (11)
+            98888-8888
+          </p>
+          <p>
+            <strong>Endereço:</strong> Rua das Flores, 123 - Centro - Cidade/UF
+          </p>
+          <iframe
+            src="https://www.google.com/maps?q=-23.55052,-46.633308&z=15&output=embed"
+            width="100%"
+            height="200"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Mapa de localização da Clínica Bem Viver"
+          ></iframe>
+          <form aria-label="Formulário de contato" autocomplete="on">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required />
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required />
+            <label for="assunto">Assunto:</label>
+            <input type="text" id="assunto" name="assunto" required />
+            <label for="mensagem">Mensagem:</label>
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              rows="4"
+              required
+            ></textarea>
+            <div style="margin-top: 10px">
+              <button type="submit">Enviar</button>
+              <button type="reset">Limpar</button>
+            </div>
+          </form>
+        </section>
+        <footer class="footer" role="contentinfo">
+          <p>Clínica Bem Viver | Rua das Flores, 123 - Centro - Cidade/UF</p>
+          <p>Telefone: (11) 99999-9999 | WhatsApp: (11) 98888-8888</p>
+          <p>Email: contato@clinicabemviver.com.br</p>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
